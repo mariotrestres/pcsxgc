@@ -240,13 +240,13 @@ controller_t controller_GC =
 	  sizeof(menu_combos)/sizeof(menu_combos[0]),
 	  menu_combos,
 	  { .SQU        = &buttons[10], // B
-	    .CRO        = &buttons[9],  // A
+	    .CRO        = &buttons[6],  // A
 	    .CIR        = &buttons[5], // X
-	    .TRI        = &buttons[6], // Y
-	    .R1         = &buttons[17],  // Right Trigger - Z
-	    .L1         = &buttons[16],  // Left Trigger - Z
-	    .R2         = &buttons[15],  // Right Trigger + Z
-	    .L2         = &buttons[18],  // Left Trigger + Z
+	    .TRI        = &buttons[12],  // Y
+	    .R1         = &buttons[15], // Right Trigger - Z
+	    .L1         = &buttons[18],  // Left Trigger - Z
+	    .R2         = &buttons[17],  // Right Trigger + Z
+	    .L2         = &buttons[16],  // Left Trigger + Z
 	    .R3         = &buttons[0],  // None
 	    .L3         = &buttons[0],  // None
 	    .DL         = &buttons[20],  // D-Pad Left

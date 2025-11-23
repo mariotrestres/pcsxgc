@@ -54,7 +54,7 @@ void Func_PlayGame();
 #define FRAME_STRINGS mainFrameStrings
 
 static const char FRAME_STRINGS[7][20] =
-	{ "Load ISO",
+	{ "Load ISO mario",
 	  "Current ISO",
 	  "Settings",
 	  "Credits",
